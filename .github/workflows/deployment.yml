@@ -34,7 +34,7 @@ jobs:
         run: npm ci
 
       - name: Test
-        run: vitest run
+        run: npx vitest run
 
   deploy:
     needs: test
