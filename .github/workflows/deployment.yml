@@ -16,7 +16,7 @@ jobs:
         run: npm ci
 
       - name: Lint
-        run: eslint --ext .jsx --fix src
+        run: npx eslint --ext .jsx --fix src
       
   test:
     needs: lint
